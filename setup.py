@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="bemplt",
-    version="0.0.005",
+    version="0.0.006",
     author="dy1901",
     author_email="gaetan.desrues@inria.fr",
     license="MIT License",

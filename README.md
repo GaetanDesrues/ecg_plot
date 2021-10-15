@@ -12,7 +12,7 @@ Forked from https://github.com/dy1901/ecg_plot
 
 ## Install
 ```
-pip install ecg_plot
+pip install bemplt
 ```
 
 ## Notice

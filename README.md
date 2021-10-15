@@ -1,8 +1,8 @@
-Forked from https://github.com/dy1901/ecg_plot
+Forked from https://github.com/dy1901/bemplt
 
 # ECG plot
 
-![example 12 lead plot](https://github.com/dy1901/ecg_plot/raw/master/example_ecg.png)
+![example 12 lead plot](https://github.com/dy1901/bemplt/raw/master/example_ecg.png)
 
 ## Plot standard ECG chart from data.
 * Support both direct plotting and plotting SVG preview in browser (currently only works on mac)
@@ -43,32 +43,32 @@ params:
 
 
 ```
-import ecg_plot
+import bemplt
 
 ecg = load_data() # load data should be implemented by yourself 
-ecg_plot.plot(ecg, sample_rate = 500, title = 'ECG 12')
-ecg_plot.show()
+bemplt.plot(ecg, sample_rate = 500, title = 'ECG 12')
+bemplt.show()
 
 ```
 
 #### Plot single lead ECG
 
 ```
-import ecg_plot
+import bemplt
 
 ecg = load_data() # load data should be implemented by yourself 
-ecg_plot.plot_1(ecg[1], sample_rate=500, title = 'ECG')
-ecg_plot.show()
+bemplt.plot_1(ecg[1], sample_rate=500, title = 'ECG')
+bemplt.show()
 ```
 
 #### Save result as png
 
 ```
-import ecg_plot
+import bemplt
 
 ecg = load_data() # load data should be implemented by yourself 
-ecg_plot.plot_12(ecg, sample_rate = 500, title = 'ECG 12')
-ecg_plot.save_as_png('example_ecg','tmp/')
+bemplt.plot_12(ecg, sample_rate = 500, title = 'ECG 12')
+bemplt.save_as_png('example_ecg','tmp/')
 
 ```
 

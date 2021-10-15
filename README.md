@@ -1,3 +1,5 @@
+Forked from https://github.com/dy1901/ecg_plot
+
 # ECG plot
 
 ![example 12 lead plot](https://github.com/dy1901/ecg_plot/raw/master/example_ecg.png)

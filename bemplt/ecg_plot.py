@@ -191,7 +191,6 @@ def plot(
                 #     y_offset = y_offset + 0.25
 
                 x_offset = 0
-                t_lead = None
                 if c > 0:
                     x_offset = secs * c
                     if show_separate_line:
